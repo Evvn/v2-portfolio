@@ -1,32 +1,60 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+body {
+  border: 30px solid #212121;
+  height: 100vh;
+  margin: 0;
+  color: #212121;
+  font-family: "Neue Haas Grotesk Display Pro", "Helvetica Bold", sans-serif;
+  font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.home p {
+  font-size: 28px;
+  padding: 5px;
+  letter-spacing: 1px;
+  line-height: 1.5;
 }
 
-.App-link {
-  color: #61dafb;
+.firstName, .lastName {
+  font-family: "Druk Text Wide", "Helvetica", sans-serif;
+  font-size: 100px;
+  padding: 10px;
+  padding-bottom: 30px;
+  letter-spacing: -9px;
+  margin: 0px;
+  color: #f7f7f7;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.firstName, .lastName {
+  text-shadow: -1px 1px 0px #212121, -2px 2px 0px #212121, -3px 3px 0px #212121, -4px 4px 0px #212121, -5px 5px 0px #212121, -6px 6px 0px #212121, -7px 7px 0px #212121, -8px 8px 0px #212121, -9px 9px 0px #212121, -10px 10px 0px #212121, -11px 11px 0px #212121, -12px 12px 0px #212121, -13px 13px 0px #212121, -14px 14px 0px #212121, -15px 15px 0px #212121, -16px 16px 0px #212121, -17px 17px 0px #212121, -18px 18px 0px #212121, -19px 19px 0px #212121, -20px 20px 0px #212121, -21px 21px 0px #212121, -22px 22px 0px #212121, -23px 23px 0px #212121, -24px 24px 0px #212121, -25px 25px 0px #212121, -26px 26px 0px #212121, -27px 27px 0px #212121, -28px 28px 0px #212121, -29px 29px 0px #212121, -30px 30px 0px #212121, -31px 31px 0px #212121, -32px 32px 0px #212121, -33px 33px 0px #212121, -34px 34px 0px #212121, -35px 35px 0px #212121, -36px 36px 0px #212121, -37px 37px 0px #212121, -38px 38px 0px #212121, -39px 39px 0px #212121, -40px 40px 0px #212121;
 }
+
+.lastName {
+  background-color: #6226b9;
+  width: 600px;
+}
+
+.firstName {
+  background-color: #2e375c;
+  width: 350px;
+  display: inline-block;
+}
+
+.webdev {
+  position: relative;
+  top: -40px;
+  left: 20px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  color: #f7f7f7;
+  padding: 5px;
+  width: auto;
+}
+
+/*# sourceMappingURL=App.css.map */
